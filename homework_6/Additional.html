@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: aliceblue;}
+
+    body{
+        background-color: rgba(104, 137, 165, 1);
+    }
+    header{
+        padding: 15px;
+        display: grid;
+        height: 10vh;}
+        
+        
+
+    .top_line_header{
+    display: grid;
+    grid-auto-columns: minmax(100px, 20%);
+    grid-auto-flow: column;
+    
+
+}
+    .line1{
+        display: grid;
+        font-size:x-large;
+
+    }
+    .line2{
+        display: grid;
+        justify-items: end;
+        gap: 10px;
+    }
+
+.main{
+    display: grid;
+    height: 90vh;   
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+aside{
+    display: grid;
+    grid-column: 4/4;
+    justify-items:end;
+    padding-left: 20px;
+}
+
+.article_title{
+    display: grid;
+    border: 1px solid rgb(27, 130, 18);
+    height: 10vh;
+    text-align: center;
+    grid-area: 1/ 2/ 3/ 3;
+
+    
+    
+    
+}
+
+.article1{
+    display: grid;
+    border: 1px solid rgb(27, 130, 18);
+    text-align: center;
+    font-size: xx-large;
+    
+
+}
+.article{
+    display: grid;
+    border: 1px solid rgb(27, 130, 18);
+    text-align: center;
+    
+
+}
+
+.footer{
+    grid-column: 1/4;
+    border: 1px solid black;
+    text-align: center;
+}
+</style>
+<body>
+    <header>
+            <header class="header">
+            <div class="top_line_header">
+                <img src="Frame.png" alt="Лого">
+            
+            <div class="line1">Women Men</div>
+            <div class="Line2">OUR HERITAGE</div>
+            <div class="Line3">CARE</div>
+            <div class="Line4">COLLECTIONS</div>
+            <div class="Line5">RESPONSIBILITY</div>
+            <div class="Line6">IE/EUR</div>
+    </header>
+    <main>
+    <main class="main">
+            <div class="article_title">FW22 COLLECTION</div>
+            <article class="article1">An Endless Pursuit of Nature</article>
+            <article class="article">In 1853 Ole Andreas Devold embarked on his journey, and since then our wool has been formed in the roughest conditions. Today, we build on our tradition of mastering wool. Relying on our dedication to craftmanship, we develop the finest quality from the most robust material. Crafted to withstand storms and to comfort on late summer nights. With profound care for nature, we create knitwear that lasts, that can be passed on – a legacy for times to come.</article>
+        <aside>
+        <img src="IMAGE.png" alt="fon"/>
+        </aside>
+    </main>
+    <footer class="footer">I accept the O.A.D. Privacy Policy.</footer>
+</body>
+</html>
