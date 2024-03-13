@@ -44,9 +44,15 @@ color: aliceblue;}
     display: grid;
     height: 90vh;   
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+.main_container{
+display: grid;
+grid-column: 1/4;
+justify-items: start;
+align-content: center;
 }
 
 aside{
@@ -60,11 +66,6 @@ aside{
     display: grid;
     height: 10vh;
     text-align: center;
-    grid-area: 1/ 2/ 3/ 3;
-
-    
-    
-    
 }
 
 .article1{
@@ -101,10 +102,11 @@ aside{
             <div class="Line6">IE/EUR</div>
     </header>
     <main>
-    <main class="main">
-            <div class="article_title">FW22 COLLECTION</div>
+        <div class="main_container">
+            <p class="article_title">FW22 COLLECTION</p>
             <article class="article1">An Endless Pursuit of Nature</article>
             <article class="article">In 1853 Ole Andreas Devold embarked on his journey, and since then our wool has been formed in the roughest conditions. Today, we build on our tradition of mastering wool. Relying on our dedication to craftmanship, we develop the finest quality from the most robust material. Crafted to withstand storms and to comfort on late summer nights. With profound care for nature, we create knitwear that lasts, that can be passed on – a legacy for times to come.</article>
+            </div>
         <aside>
         <img src="IMAGE.png" alt="fon"/>
         </aside>

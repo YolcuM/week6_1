@@ -16,6 +16,9 @@
         height: 10vh;
         font-weight: bold;
     background-color: aqua;}
+    body{
+
+    }
     main{
         border: 1px solid black;
         grid-column: 1/4;
@@ -37,12 +40,13 @@
     }
     .mainsec{
         display: grid;
-        padding-left: 70px;
+        justify-items: center;
+        justify-content: space-between;
     }
     .supl{
         border: 1px solid black;
         text-align: center;
-        width: 100px;
+        width: 20vw;
         grid-row-start: 1;
         grid-row-end: 3;
         height: 10vh;
@@ -62,7 +66,7 @@
     
     aside{
         border: 1px solid black;
-        grid-column: 2/4;
+        grid-column: 3/4;
         padding: 30px;
         text-align: center;
         background-color: blueviolet;
@@ -79,4 +83,5 @@
         padding-top: 20px;
         grid-row-start: 1;
         grid-row-end: 4;
+        justify-content: space-around;
     }
